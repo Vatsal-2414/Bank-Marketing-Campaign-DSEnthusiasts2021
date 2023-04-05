@@ -14,3 +14,8 @@ Our task is to help the bank by building a classification model which predicts t
 * Model selection and model building
 * Results from the models
 * Conclusion and recommendation
+
+## Conclusion:
+* Algorithms like Logistic Regression, K-Nearest Neighbors, Naive Bayes Classifier and Bagging and Boosting ensemble methods are used in model building process.
+* Without scaling and hyperparameter tuning, Naive Bayes Classifier showed a better AUC score of 0.63 for default parameters. Similar process done for ensemble algorithms with result indicating Gradient Boosting performing better against others.
+* Scaled the data using StandardScaler and enhanced performance of Gradient Boosting Classifier to 0.80 AUC score. 
